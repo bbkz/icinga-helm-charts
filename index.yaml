@@ -3,6 +3,26 @@ entries:
   icinga-stack:
   - apiVersion: v2
     appVersion: 0.5.1
+    created: "2025-02-21T17:03:53.648905515Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.x.x
+    description: Icinga is a monitoring system which checks the availability of your
+      network resources, notifies users of outages, and generates performance data
+      for reporting.
+    digest: f6da6279482d688ccf1ff2a986cca9a14cead01bacebca62e6ab77ed155b03b2
+    maintainers:
+    - email: daniel.bodky@netways.de
+      name: Daniel Bodky
+      url: https://github.com/mocdaniel
+    name: icinga-stack
+    type: application
+    urls:
+    - https://github.com/bbkz/icinga-helm-charts/releases/download/icinga-stack-0.5.2/icinga-stack-0.5.2.tgz
+    version: 0.5.2
+  - apiVersion: v2
+    appVersion: 0.5.1
     created: "2025-01-09T09:48:51.331706772Z"
     dependencies:
     - name: common
@@ -113,4 +133,4 @@ entries:
     urls:
     - https://github.com/Icinga/helm-charts/releases/download/icinga-stack-0.1.0/icinga-stack-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-09T09:48:51.331740304Z"
+generated: "2025-02-21T17:03:53.648949376Z"
