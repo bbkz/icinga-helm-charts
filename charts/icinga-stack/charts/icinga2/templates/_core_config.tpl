@@ -2,7 +2,7 @@
 // Constants for Icinga 2 from constants.conf
 const PluginDir = "/usr/lib/nagios/plugins"
 const ManubulonPluginDir = "/usr/lib/nagios/plugins"
-const PluginContribDir = "/usr/lib/nagios/plugins"
+const PluginContribDir = {{ .Values.config.contrib_plugins | default "/usr/lib/nagios/plugins" | quote }}
 const NodeName = {{ .Values.config.node_name | quote }}
 const ZoneName = {{ .Values.config.zone_name | quote }}
 const TicketSalt = getenv("ICINGA_TICKET_SALT")
