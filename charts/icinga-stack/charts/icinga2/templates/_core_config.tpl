@@ -36,4 +36,10 @@ object Zone "global-templates" {
 object Zone "director-global" {
     global = true
 }
+
+{{- if ne .Values.config.disable_confd true }}
+include_recursive "/data/etc/conf.d"
+{{- end}}
+
+
 {{- end -}}
