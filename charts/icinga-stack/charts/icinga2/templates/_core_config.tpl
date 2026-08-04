@@ -41,5 +41,4 @@ object Zone "director-global" {
 include_recursive "/data/etc/conf.d"
 {{- end}}
 
-
 {{- end -}}
