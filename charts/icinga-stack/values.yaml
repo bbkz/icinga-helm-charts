@@ -391,6 +391,8 @@ icingaweb2:
     #  - secretName: chart-example-tls
     #    hosts:
     #      - chart-example.local
+  
+  extraEnvVars: []
 
   auth:
     type: db
