@@ -365,7 +365,7 @@ icingaweb2:
 
   image:
     repository: icinga/icingaweb2
-    tag: 2.13.2
+    tag: 2.14.0
     pullPolicy: Always
 
   imagePullSecrets: []
